@@ -1,0 +1,94 @@
+body {
+    background-color: #000000; /* pure black background */
+    background-image: none;
+    color: #ffffff; /* default white text */
+}
+
+h2 {
+    background-color: #111111;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 1px solid #444;
+    padding: 10px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #bbbbbb;
+    text-decoration: underline;
+}
+
+/* Navbar links */
+.home-link, .about-link, .year-link, .rtu-papers-link, .contact-link {
+    color: #ffffff;
+}
+
+/* Dropdowns */
+h2 .year-dropdown, h2 .rtu-papers-dropdown {
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* Section Titles */
+.section-title, .year-title, .notes-title {
+    text-align: center;
+    font-size: xx-large;
+    color: #ffffff;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 10px;
+}
+
+/* Content layout */
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* Table styles */
+table {
+    width: 30%;
+    text-align: center;
+    margin: 0.5%;
+    background-color: #111111;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+table:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/* Images */
+table img {
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #333333;
+}
+
+/* Titles inside tables */
+table h1 {
+    font-size: large;
+    color: #ffffff;
+}
+
+/* Table cells */
+table td {
+    padding: 15px;
+}
